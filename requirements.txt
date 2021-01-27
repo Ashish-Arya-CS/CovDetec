@@ -12,3 +12,4 @@ Pillow==8.1.0
 scikit_learn==0.24.1
 numba==0.48
 ffmpeg-python==0.20
+ffprobe==0.5
