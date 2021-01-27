@@ -27,7 +27,7 @@ from keras.layers import *
 
 import base64
 
-st.set_page_config(layout="wide")
+st.set_page_config(layout="centered")
 
 @st.cache(allow_output_mutation=True)
 def get_base64_of_bin_file(bin_file):
