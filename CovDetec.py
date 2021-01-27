@@ -4,7 +4,6 @@ from pydub import AudioSegment
 import numpy as np
 from PIL import Image
 from load_css import local_css
-import ffprobe
 
 import pandas as pd
 import os
