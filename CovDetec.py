@@ -44,8 +44,8 @@ local_css("style.css")
  
 st.markdown(" <h1 style='text-align: center; color: black;'><span class='highlight slateblue'>Corona Detection App</span></h1>", unsafe_allow_html=True)
 st.markdown("\n")
-st.markdown(" <h3 style='text-align: center; color: black;'><span class='highlight slateblue'>To Know about the working of App and to Display Wave Plot, please click</span></h3>", unsafe_allow_html=True)
-st.markdown(" <h3 style='text-align: center; color: black;'><span class='highlight slateblue'>on Expand to show option Button below.</span></h3>", unsafe_allow_html=True)
+st.markdown(" <h5 style='text-align: center; color: black;'><span class='highlight slateblue'>To Know about the working of App and to Display Wave Plot, please click</span></h5>", unsafe_allow_html=True)
+st.markdown(" <h5 style='text-align: center; color: black;'><span class='highlight slateblue'>on Expand to show option Button below.</span></h5>", unsafe_allow_html=True)
 
 
 my_expander = st.beta_expander("Expand to show option", expanded=False)
