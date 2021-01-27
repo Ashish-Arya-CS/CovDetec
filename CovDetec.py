@@ -44,8 +44,8 @@ local_css("style.css")
  
 st.markdown(" <h1 style='text-align: center; color: black;'><span class='highlight slateblue'>Corona Detection App</span></h1>", unsafe_allow_html=True)
 st.markdown("\n")
-st.markdown(" <h5 style='text-align: center; color: black;'><span class='highlight slateblue'>To Know about the working of App and to Display Wave Plot, please click</span></h5>", unsafe_allow_html=True)
-st.markdown(" <h5 style='text-align: center; color: black;'><span class='highlight slateblue'>on Expand to show option Button below.</span></h5>", unsafe_allow_html=True)
+st.markdown(" <h4 style='text-align: center; color: black;'><span class='highlight slateblue'>To Know about the working of App and to Display Wave Plot, please click</span></h4>", unsafe_allow_html=True)
+st.markdown(" <h4 style='text-align: center; color: black;'><span class='highlight slateblue'>on Expand to show option Button below.</span></h4>", unsafe_allow_html=True)
 
 
 my_expander = st.beta_expander("Expand to show option", expanded=False)
@@ -63,7 +63,7 @@ if 'How does it work ?' in choice:
     st.markdown("<div><span class='highlight blue'> maintain Social Distancing.</span><div>", unsafe_allow_html=True)
     st.markdown("\n")
 st.markdown(" <h3 style='text-align: center; color: black;'><span class='highlight slateblue'>Upload Your Audio File Below</span></h3>", unsafe_allow_html=True)
-st.markdown(" <h5 style='text-align: center; color: black;'><span class='highlight slateblue'>The audio file should be of about three seconds containing the cough sound.</span></h5>", unsafe_allow_html=True)
+st.markdown(" <h5 style='text-align: center; color: black;'><span class='highlight slateblue'>The file containing cough sound should be about Three seconds.</span></h5>", unsafe_allow_html=True)
 
 def set_png_as_page_bg(png_file):
     bin_str = get_base64_of_bin_file(png_file)
