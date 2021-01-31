@@ -61,7 +61,7 @@ if 'How does it work ?' in choice:
     st.markdown("<div>• At last, we wish you to stay healthy and Covid Negative. Don't forget to wear Mask and</div>", unsafe_allow_html=True)
     st.markdown("<div> maintain Social Distancing.</div>", unsafe_allow_html=True)
     st.markdown("\n")
-st.markdown(" <h3 style='text-align: center; color: black;'>\Upload Your Audio File Below</h3>", unsafe_allow_html=True)
+st.markdown(" <h3 style='text-align: center; color: black;'>Upload Your Audio File Below</h3>", unsafe_allow_html=True)
 st.markdown(" <div>The audio file should be of about three seconds in which the cough sound can be heard clearly.</div>", unsafe_allow_html=True)
 
 def set_png_as_page_bg(png_file):
