@@ -42,7 +42,7 @@ def load_our_model():
 
 local_css("style.css")
  
-st.markdown(" <h1 style='text-align: center; color: black;'><span class='highlight slateblue'>Corona Detection App</span></h1>", unsafe_allow_html=True)
+st.markdown(" <h1 style='text-align: center; color: black;'>Corona Detection App</h1>", unsafe_allow_html=True)
 st.markdown("\n")
 st.markdown(" <div><span class='highlight slateblue'>To Know about the working of App and to Display Wave Plot, please click on Expand to show option Button below.</span></div>", unsafe_allow_html=True)
 
