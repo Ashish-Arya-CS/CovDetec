@@ -78,7 +78,7 @@ def set_png_as_page_bg(png_file):
     st.markdown(page_bg_img, unsafe_allow_html=True)
     return
 
-set_png_as_page_bg('p1.png')
+set_png_as_page_bg('abcd3.png')
 
 from numpy import load
 Y = load('Y.npy', allow_pickle = True)
