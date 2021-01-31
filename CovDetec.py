@@ -44,7 +44,7 @@ local_css("style.css")
  
 st.markdown(" <h1 style='text-align: center; color: black;'>Corona Detection App</h1>", unsafe_allow_html=True)
 st.markdown("\n")
-st.markdown(" <div><span class='highlight slateblue'>To Know about the working of App and to Display Wave Plot, please click on Expand to show option Button below.</span></div>", unsafe_allow_html=True)
+st.markdown(" <div>To Know about the working of App and to Display Wave Plot, please click on Expand to show option Button below.</div>", unsafe_allow_html=True)
 
 
 my_expander = st.beta_expander("Expand to show option", expanded=False)
@@ -52,17 +52,17 @@ with my_expander:
     choice = st.multiselect("Enter Your Choice", ('How does it work ?', 'Display Wave Plot'))
 
 if 'How does it work ?' in choice:
-    st.markdown("<div><span class='highlight blue'>Hello and Welcome to our AI enabled Covid Detection App.Let us describe you how it works :- </span></div>", unsafe_allow_html=True)
-    st.markdown("<div><span class='highlight blue'>• Upload an audio of about three seconds in which your cough sound can be heard clearly </span></div>", unsafe_allow_html=True)
-    st.markdown("<div><span class='highlight blue'>  by clicking on the Browse Files button </span></div>", unsafe_allow_html=True)
-    st.markdown("<div><span class='highlight blue'>• Once the file is uploaded the AI Model will display the result on the screen.. </span></div>", unsafe_allow_html=True)
-    st.markdown("<div><span class='highlight blue'>• Once your result is displayed and you want to obtain a prediction for any other audio file then</span></div>", unsafe_allow_html=True)
-    st.markdown("<div><span class='highlight blue'> it is recommended to reload the page. </span></div>", unsafe_allow_html=True)
-    st.markdown("<div><span class='highlight blue'>• At last, we wish you to stay healthy and Covid Negative. Don't forget to wear Mask and</span></div>", unsafe_allow_html=True)
-    st.markdown("<div><span class='highlight blue'> maintain Social Distancing.</span></div>", unsafe_allow_html=True)
+    st.markdown("<div>Hello and Welcome to our AI enabled Covid Detection App.Let us describe you how it works :- </div>", unsafe_allow_html=True)
+    st.markdown("<div>• Upload an audio of about three seconds in which your cough sound can be heard clearly </div>", unsafe_allow_html=True)
+    st.markdown("<div> by clicking on the Browse Files button </span></div>", unsafe_allow_html=True)
+    st.markdown("<div>• Once the file is uploaded the AI Model will display the result on the screen.</div>", unsafe_allow_html=True)
+    st.markdown("<div>• Once your result is displayed and you want to obtain a prediction for any other audio file then</div>", unsafe_allow_html=True)
+    st.markdown("<div> it is recommended to reload the page. </span></div>", unsafe_allow_html=True)
+    st.markdown("<div>• At last, we wish you to stay healthy and Covid Negative. Don't forget to wear Mask and</div>", unsafe_allow_html=True)
+    st.markdown("<div> maintain Social Distancing.</div>", unsafe_allow_html=True)
     st.markdown("\n")
-st.markdown(" <h3 style='text-align: center; color: black;'><span class='highlight slateblue'>Upload Your Audio File Below</span></h3>", unsafe_allow_html=True)
-st.markdown(" <div><span class='highlight slateblue'>The audio file should be of about three seconds in which the cough sound can be heard clearly.</span></div>", unsafe_allow_html=True)
+st.markdown(" <h3 style='text-align: center; color: black;'>\Upload Your Audio File Below</h3>", unsafe_allow_html=True)
+st.markdown(" <div>The audio file should be of about three seconds in which the cough sound can be heard clearly.</div>", unsafe_allow_html=True)
 
 def set_png_as_page_bg(png_file):
     bin_str = get_base64_of_bin_file(png_file)
@@ -167,9 +167,9 @@ if uploaded_file is not None:
     st.markdown("<div><span class='highlight green'>According to our AI Model you are Covid Negative. Always wear a mask while going </span></div>", unsafe_allow_html=True)
     st.markdown("<div><span class='highlight green'> outside your home and maintain Social Distancing. Be Safe and Be Healthy.</span></div>", unsafe_allow_html=True)
   st.markdown("\n")
-  st.markdown("<div><span class='highlight blue'>Before uploading any next audio file please reload the page.</span></div>", unsafe_allow_html=True)
+  st.markdown("<div>Before uploading any next audio file please reload the page.</div>", unsafe_allow_html=True)
   st.markdown("\n")
-  st.markdown("<div><span class='highlight blue'>Thank You for using our Covid Detection App.</span></div>", unsafe_allow_html=True)
+  st.markdown("<div>Thank You for using our Covid Detection App.</div>", unsafe_allow_html=True)
   os.remove(audio_path) 
   
 else:
