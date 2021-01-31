@@ -177,3 +177,6 @@ else:
 my_expander = st.beta_expander("Connect with the Developers", expanded=True)
 with my_expander:
     st.markdown(" [![](https://img.shields.io/badge/LinkedIn-AshishArya-blue?logo=Linkedin&logoColor=blue&labelColor=white)](https://www.linkedin.com/in/ashish-arya-65923b16b/) [![](https://img.shields.io/badge/LinkedIn-AnshulChaudhary-blue?logo=Linkedin&logoColor=blue&labelColor=white)](https://www.linkedin.com/in/anshul-chaudhary-2001/)", unsafe_allow_html=True)
+my_expander = st.beta_expander("Give us your Feedback", expanded=True)
+with my_expander:
+    st.markdown("[Feedback Form](https://forms.gle/afWUXQyB3nvftEm17)", unsafe_allow_html=True)
