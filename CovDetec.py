@@ -9,7 +9,7 @@ import pandas as pd
 import os
 import datetime
 
-# librosa is a Python library for analyzing audio and music. It can be used to extract the data from the audio files we will see it later.
+# librosa is a Python library for analyzing audio and music. It can be used to extract the data from the audio files we will see it later
 import librosa
 import librosa.display
 import seaborn as sns
