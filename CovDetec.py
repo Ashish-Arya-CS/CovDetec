@@ -70,7 +70,7 @@ def set_png_as_page_bg(png_file):
     <style>
     body {
     background: url("data:image/png;base64,%s");
-    background-size: cover;    
+    background-size: contain;    
     }
     </style>
     ''' % bin_str
